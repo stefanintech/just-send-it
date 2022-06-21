@@ -1847,6 +1847,7 @@ input, select, textarea {
 			height: 3em;
 			line-height: 3em;
 			cursor: default;
+			color: #183755;
 		}
 
 			#header h1 a {
