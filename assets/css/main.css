@@ -564,6 +564,7 @@ input, select, textarea {
 		font-size: 2.25em;
 		line-height: 1.25em;
 		letter-spacing: -0.05em;
+		color: white;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -662,7 +663,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #98c593;
+		background-color: #183755;
 		border: 0;
 		border-radius: 3.5em;
 		color: #ffffff;
@@ -719,7 +720,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		.button:hover,
 		button:hover {
-			background-color: #a8cea4;
+			background-color: #183755;
 		}
 
 		input[type="button"]:active,
@@ -1188,6 +1189,7 @@ input, select, textarea {
 			display: block;
 			margin: 1em 0 0 0;
 			padding: 0 0 0.5em 0;
+			color: white;
 		}
 
 	footer {
@@ -2047,7 +2049,7 @@ input, select, textarea {
 			}
 
 			.main.style3.secondary {
-				background: #f5f6f7;
+				background: #183755;
 			}
 
 		.main.dark {
@@ -2216,6 +2218,7 @@ input, select, textarea {
 				line-height: 1.5em;
 				text-align: center;
 				padding: 2em 1em 2em 1em;
+				background: #183755;
 			}
 
 				#footer > * {
@@ -2244,7 +2247,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		background-color: #39454b;
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
